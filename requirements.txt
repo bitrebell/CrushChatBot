@@ -1,3 +1,2 @@
-pyrogram
-tgcrypto
-telegraph==1.4.1
+python-telegram-bot==13.11
+telegram
