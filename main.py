@@ -15,17 +15,30 @@ updater = Updater("5797679102:AAESs8tDZRK1mNLeEVTon-0XY-pCHhgjt9I",
                   use_context=True)
 
 
+PM_START_TEXT ="""
+ʜᴇʟʟᴏ {} ! [.](https://te.legra.ph/file/c899d55728cee2e8fe344.jpg)
+๏ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ
+ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ...!!
+───────────────
+ ➻ 𝕤𝕦𝕡𝕡𝕠𝕣𝕥:[Crush Support](https://t.me/crushbotsupport)
+ ➻ 𝕞𝕠𝕚 𝕘𝕠𝕕: [ＹＯUＲ ＣＲUＳＨ،(💛](https://t.me/aadillllll)
+───────────────
+๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ
+ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴄᴏᴍᴍᴀɴᴅs.
+"""
+
 def start(update: Update, context: CallbackContext):
   update.message.reply_photo(
 	photo,
     	caption="𝒉𝒊𝒊𝒊 𝒊 𝒂𝒎 𝒍𝒂𝒓𝒂... 𝒂𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝒐𝒓 @aadillllll . \n𝒓𝒆𝒎𝒆𝒎𝒃𝒆𝒓 𝒐𝒏𝒆 𝒕𝒉𝒊𝒏𝒈 𝒎𝒚 𝒎𝒂𝒔𝒕𝒆𝒓 𝒂𝒍𝒘𝒂𝒚𝒔 𝒃𝒆 𝒐𝒑.... 𝒔𝒐 𝒅𝒐𝒏'𝒕 𝒎𝒆𝒔𝒔 𝒖𝒑 𝒘𝒊𝒕𝒉 𝒉𝒊𝒎. 𝒃𝒖𝒕 𝒍𝒂𝒅𝒊𝒆𝒔 𝒚𝒐𝒖 𝒂𝒓𝒆 𝒘𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒉𝒆𝒓 𝒅𝒎  𝒐𝒓 𝒊𝒏𝒔𝒕𝒂. 𝒂𝒍𝒔𝒐 𝒚𝒐𝒖 𝒌𝒏𝒐𝒘 𝒂𝒃𝒐𝒖𝒕 𝒉𝒆𝒓. 𝒋𝒖𝒔𝒕 𝒕𝒚𝒑𝒆 /info 𝒂𝒏𝒅 𝒃𝒐𝒐𝒎 𝒚𝒐𝒖 𝒌𝒏𝒐𝒘 𝒂𝒍𝒍 𝒂𝒃𝒐𝒖𝒕 𝒉𝒆𝒓.ֆ 💛💭ۦ"
   )
-
+	update.message.reply_text(
+	PM_START_TEXT)
 
 def info(update: Update, context: CallbackContext):
   update.message.reply_photo(
 	photo2,
-    	caption=""" [.](https://te.legra.ph/file/036781df069b478254e37.jpg)HERE are the some commands that you know  
+    	caption="""HERE are the some commands that you know  
 	Available Commands :-
 	/crush - To get the information about my master
 	/insta - To get the instagram profile URL
