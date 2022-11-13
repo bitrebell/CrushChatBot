@@ -54,7 +54,7 @@ def tele_bots(update: Update, context: CallbackContext):
 •[Music Bot](https://github.com/Darkranger00/)\n\
 
 𝔰𝔲𝔭𝔭𝔬𝔯𝔱 :- [CrushSupport](https://t.me/crushbotsupport)
-"""")
+""")
 
 def gmail_url(update: Update, context: CallbackContext):
   update.message.reply_text("GMAIL URL => \
