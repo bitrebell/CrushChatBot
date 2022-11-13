@@ -9,7 +9,7 @@ import responsre as R
 print("Bot is starting.......")
 
 photo = "https://te.legra.ph/file/cf00ecd72b3ee934bd87e.jpg"
-# photo2 = "https://te.legra.ph/file/036781df069b478254e37.jpg"
+photo2 = "https://te.legra.ph/file/036781df069b478254e37.jpg"
 
 updater = Updater("5797679102:AAESs8tDZRK1mNLeEVTon-0XY-pCHhgjt9I",
                   use_context=True)
@@ -23,8 +23,9 @@ def start(update: Update, context: CallbackContext):
 
 
 def info(update: Update, context: CallbackContext):
-  update.message.reply_text(
-    """ [.](https://te.legra.ph/file/036781df069b478254e37.jpg)HERE are the some commands that you know  
+  update.message.reply_photo(
+	photo2,
+    	caption=""" [.](https://te.legra.ph/file/036781df069b478254e37.jpg)HERE are the some commands that you know  
 	Available Commands :-
 	/crush - To get the information about my master
 	/insta - To get the instagram profile URL
