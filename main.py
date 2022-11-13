@@ -100,6 +100,7 @@ def main():
   updater.dispatcher.add_handler(CommandHandler('info', info))
   updater.dispatcher.add_handler(CommandHandler('github', github_url))
   updater.dispatcher.add_handler(CommandHandler('crush', crush_about))
+  updater.dispatcher.add_handler(CommandHandler('bot', tele_bots))
   updater.dispatcher.add_handler(CommandHandler('gmail', gmail_url))
   updater.dispatcher.add_handler(CommandHandler('repeat', repeat))
   updater.dispatcher.add_handler(CommandHandler('pyar', pyar))
