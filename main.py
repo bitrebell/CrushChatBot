@@ -61,13 +61,13 @@ def instagram_url(update: Update, context: CallbackContext):
 def tele_bots(update: Update, context: CallbackContext):
   update.message.reply_text(f"""* 𝙷𝚒𝚒𝚒 [ＹＯUＲ ＣＲUＳＨ،(💛](https://t.me/aadillllll) 𝚑𝚎𝚛𝚎,\n
 𝙸 𝚊𝚖 𝚊 𝚜𝚘𝚏𝚝𝚠𝚊𝚛𝚎 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛\n 𝚃𝚑𝚎𝚛𝚎 𝚊𝚛𝚎 𝚖𝚢 𝚜𝚘𝚖𝚎 𝚒𝚖𝚙𝚘𝚛𝚝𝚊𝚗𝚝  𝚋𝚘𝚝𝚜 🤖\n\n\
-•[Afk bot](https://github.com/Darkranger00/crushafk)\n\
-•[Spam bot](https://github.com/Darkranger00/CrushSpamBot)\n\
-•[Banall bot](https://github.com/Darkranger00/Banall)\n\
-•[Group Manager](https://github.com/Darkranger00/CrushRobot)\n\
-•[Music Bot](https://github.com/Darkranger00/)\n\
+•Afk bot = https://github.com/Darkranger00/crushafkn\
+•Spam bot = https://github.com/Darkranger00/CrushSpamBot\n\
+•Banall bot = https://github.com/Darkranger00/Banall\n\
+•Group Manager https://github.com/Darkranger00/CrushRobot\n\
+•Music Bot = https://github.com/Darkranger00/\n\
 
-𝔰𝔲𝔭𝔭𝔬𝔯𝔱 :- [CrushSupport](https://t.me/crushbotsupport)
+𝔰𝔲𝔭𝔭𝔬𝔯𝔱 :- https://t.me/crushbotsupport
 """)
 
 def gmail_url(update: Update, context: CallbackContext):
